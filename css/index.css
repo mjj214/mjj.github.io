@@ -1,0 +1,237 @@
+.list .dd{
+	margin-top:2px; 
+	color:#fff;
+	font:400 14px "微软雅黑";
+}
+.list .items{
+	padding-left:12px;
+	height:30px;
+}
+.list h3{
+	float:left;
+}
+.list span{
+	float:right;
+	padding-right:5px; 
+}
+.banner604{
+	position:relative;
+}
+.banner604 a{
+	position: absolute;
+	left:0;
+	top:0;
+	height:504px;
+	background:url(../images/banner.jpg) no-repeat top center;
+	width:100%;
+}
+.main{
+	position: relative;/*因为上面的盒子把它覆盖住了，所以利用定位来解决层级问题*/
+	
+}
+.solider{
+	width:730px;
+	height:453px;
+	/*background:pink;*/
+	margin:12px 0 0 220px;
+	float:left;
+	position: relative;
+	background: url("../images/slider1.jpg");
+}
+.lab{
+	width:248px;
+	height:451px;
+	float:right;
+	border: 1px solid #E4E4E4;
+	margin-top:12px;
+}
+.circle{
+	position: absolute;
+	left:50%;
+	bottom:8px;
+}
+.circle li{
+	float:left;
+	width:18px;
+	height:18px;
+	border-radius:50%; 
+	text-align: center;
+	line-height: 18px;
+	background-color:#3E3E3E;
+	color:#fff; 
+}
+.arrowl, .arrowr{
+	width:30px;
+	height:62px;
+	background:rgba(0,0,0,0.4);
+	position: absolute;
+	top:50%;
+	margin-top:-31px;
+	font:500 18px/62px "宋体";
+	color:#fff;
+	text-align: center;
+
+}
+.arrowl{
+	left:0;
+}
+.arrowr{
+	right:0;
+}
+.jd-news{
+	height:200px;
+	border-bottom:1px dashed #E4E4E4;/*虚线*/
+}
+.jd-news .dt h3{
+	float:left;
+	font:500 14px/43px "微软雅黑";
+	color:#666;
+	margin-left:5px;
+
+}
+.jd-news .dt a{
+	float:right;
+	font:500 14px/43px "微软雅黑";
+	color:#666;
+	margin-right:5px;
+
+}
+.jd-news .dt,.life .dt{
+	height: 43px;
+	border-bottom: 1px dotted #E8E8E7;/*点线*/
+}
+.jd-news .dd ul{
+	padding:8px 0 0 15px;
+}
+.jd-news .dd li{
+	line-height: 28px;
+}
+.jd-news .dd span{
+	font-weight: 700;
+	margin-right: 3px;
+}
+.life{
+	height: 251px;
+	width:248px;
+	overflow: hidden;/*隐藏第二个盒子超出的部分*/
+}
+.life .dt h3{
+	float:left;
+	font:500 14px/43px "微软雅黑";
+	color:#666;
+	margin-left:5px;
+
+}
+
+.life ul{
+	width:252px;/*使掉下去的盒子上来*/
+}
+.life .dd li{
+	width:62px;
+	height: 70px;
+	border: 1px solid #E4E4E4;
+	float:left;
+	margin:-1px 0 0 -1px;/*使边框为1*/
+	position: relative;
+}
+.life .dd li span{
+	display: block;/*转化为块级元素*/
+	text-align: center;
+	padding-top: 44px;/*将话费挤下来*/
+	position: relative;
+
+}
+.life .dd li i{
+	width:25px;
+	height: 25px;
+	position: absolute;
+	top:12px;
+	left:19px;
+	background: url("../images/icon_lifeserv.png") no-repeat right top;
+}
+.life .dd .icon12 i{
+	background-position: right -25px;
+}
+.life .dd .icon13 i{
+	background-position: right -50px;
+}
+.life .dd .icon14 i{
+	background-position: right -75px;
+}
+.life .dd .icon15 .song{
+	display: block;
+	width:12px;
+	height: 15px;
+	background: url("../images/song.png") no-repeat;
+	position:absolute;
+	right:0;
+	top:1px;
+	}
+.today{
+	position: relative;
+}
+.night{
+	margin:10px 0 28px 0;
+}
+.night-l{
+	float:left;
+}
+.night-r{
+	width:1000px;
+	height:160px;
+	float: right;
+}
+.night-r ul {
+    width: 500%;
+  
+}
+.night-r li {
+    float: left;
+    margin-right: 1px;
+}
+.ads{
+	position: relative;
+
+}
+.all{
+	margin:10px 0 28px 0;
+	padding-left:20px;
+}
+.ads1,.ads2{
+	width:390px;
+	height: 460px;
+	float:left;
+	background-color: #ffffff;
+
+}
+.ads1 .sport,.ads2 .beauty{
+	width:390px;
+	height:60px;
+	font:500 18px/60px "微软雅黑";
+	padding-left:30px;
+}
+.ads1 .imgs{
+	width:390px;
+	height:390px;
+	overflow: hidden;
+}
+.ads1 .imgs ul,.ads2 .imgs ul{
+	width:430px;
+}
+.ads1 .imgs li,.ads2 .imgs li{
+	width:395px;
+	height:197px;
+	border-bottom:1px solid #fff;
+	float:left;
+}
+.ads1 .imgs li i,.ads2 .imgs li i{
+	width:195px;
+	height:197px;
+	border-right:1px solid #fff;
+	float:left;
+}
+.ads3{
+	width:390px;
+	height: 460px;
+	float:right;
+}
